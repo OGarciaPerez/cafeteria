@@ -1,36 +1,74 @@
-<html>
-    <head>
-        <title>My Website</title>
-    </head>
-    <body>
-        <header>
-            <h1>Oscar's Coffee Shop</h1>
-            <nav>
-                <ul>
-                    <li><a href="carta.html">Carta</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-        </header>
-        <main>
-            <h2>Carta</h2>
-                <h3>bebidas</h3>
-                <ul>
-                    <li>Café americano - $2.50</li>
-                    <li>Café con leche - $3.00</li>
-                    <li>Capuccino - $3.50</li>
-                </ul>
-            <h2>Nosotros</h2>
-                <p>Somos una cafetería local que se enorgullece de servir café de alta calidad y deliciosos postres. Nuestro objetivo es crear un ambiente acogedor para que nuestros clientes disfruten de su tiempo con nosotros.</p>
-            <h2>Reseñas</h2>
-                <p>"Increible lugar para tomar un buen café y pasar el rato con tus seres queridos. - Juan Pérez"</p>
-            <aside>
-                <h3>Horario de apertura</h3>
-                <p>Lunes a Viernes: 8:00 AM - 8:00 PM</p>
-                <p>Sábados y Domingos: 9:00 AM - 6:00 PM</p>
-            </aside>
-        </main>
-        <footer>
-            <p>C/ Llull 185, 08005 Barcelona. oscar@oscarcoffee.com</p>
-    </body>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar's Coffee Shop</title>
+  </head>
+  <body>
+    <header>
+      <h1>Oscar's Coffee Shop</h1>
+      <nav>
+        <ul>
+          <li><a href="#carta">Carta</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#resenas">Reseñas</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="carta">
+        <h2>Carta</h2>
+        <h3>Bebidas</h3>
+        <ul>
+          <li>Café americano - 2.50€</li>
+          <li>Café con leche - 3.00€</li>
+          <li>Cappuccino - 3.50€</li>
+          <li>Latte - 3.50€</li>
+        </ul>
+      </section>
+      <section id="nosotros">
+        <h2>Nosotros</h2>
+        <p>
+          Somos una cafetería local que se enorgullece de servir café de alta
+          calidad y deliciosos postres. Nuestro objetivo es crear un ambiente
+          acogedor para que nuestros clientes disfruten de su tiempo con
+          nosotros.
+        </p>
+        <p>
+          Además, contamos con un espacio para que los amantes de los gatos
+          puedan disfrutar de la compañía de nuestros felinos mientras toman su
+          café.
+        </p>
+        <figure>
+          <img
+            src="imagenes/gato.jpg"
+            alt="Gato negro y blanco durmiendo en la cafetería">
+          <figcaption>Nuestro gato Zeus, la mascota del local.</figcaption>
+        </figure>
+      </section>
+      <section id="resenas">
+        <h2>Reseñas</h2>
+        <blockquote>
+          <p>
+            Increíble lugar para tomar un buen café y pasar el rato con tus
+            seres queridos. - <cite>Juan Pérez</cite>
+          </p>
+        </blockquote>
+      </section>
+    </main>
+    <aside>
+      <h3>Horario de apertura</h3>
+      <p>Lunes a Viernes: 8:00 AM - 8:00 PM</p>
+      <p>Sábados y Domingos: 9:00 AM - 6:00 PM</p>
+    </aside>
+    <footer>
+      <address>
+        <p>
+          C/ Llull 185, 08005 Barcelona.
+          <a href="mailto:oscar@oscarcoffee.com">oscar@oscarcoffee.com</a>
+        </p>
+      </address>
+    </footer>
+  </body>
 </html>
