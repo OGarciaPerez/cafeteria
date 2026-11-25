@@ -4,7 +4,7 @@ Página web de una cafetería ficticia, hecha como ejercicio para practicar HTML
 
 Elegí este proyecto porque una página de cafetería reúne casi todas las etiquetas básicas que necesito aprender.
 
-![Captura de la página de la cafetería](imagenes/imagenREADME.png)
+![Captura de la página de la cafetería](imagenes/imagenREADME2.png)
 
 ## Qué practica este proyecto
 
