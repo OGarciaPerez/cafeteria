@@ -1,6 +1,6 @@
 # Oscar's Coffee Shop
 
-Página web de una cafetería ficticia, hecha como ejercicio para practicar HTML semántico.
+Página web de una cafetería ficticia, hecha como ejercicio para practicar HTML semántico y primeros pasos con CSS.
 
 Elegí este proyecto porque una página de cafetería reúne casi todas las etiquetas básicas que necesito aprender.
 
@@ -11,6 +11,7 @@ Elegí este proyecto porque una página de cafetería reúne casi todas las etiq
 - Estructura de documento: `header`, `nav`, `main`, `section`, `aside`, `footer`
 - Jerarquía de títulos y enlaces internos con `id`
 - Citas (`blockquote` y `cite`), imágenes con `figure` y `figcaption`, y `address`
+- Modelo de caja (`margin`, `padding`, `border`, `box-sizing`) y centrado de contenido con `max-width` y `margin: 0 auto`
 
 ## Cómo verlo
 
@@ -18,7 +19,7 @@ Descarga el repositorio y abre `index.html` en tu navegador.
 
 ## Estado
 
-Solo HTML, sin estilos. Próximo paso: añadir CSS (modelo de caja, Flexbox y Grid).
+HTML semántico y primeros estilos con CSS (modelo de caja). Próximo paso: Flexbox para el menú de navegación.
 
 ---
 
