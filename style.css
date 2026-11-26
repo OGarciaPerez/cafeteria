@@ -4,6 +4,8 @@
 
 body {
   font-family: sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
 }
 
 img {
@@ -20,8 +22,8 @@ aside {
 }
 
 section {
-  border: 1px solid #000000;
-  padding: 20px;
+  border: 1px solid var(--color-texto);
+  padding: var(--espaciado);
 }
 
 h2 {
@@ -31,7 +33,7 @@ h2 {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: var(--espaciado);
   justify-content: right;
   flex-wrap: wrap;
 }
@@ -45,17 +47,23 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-  background-color: #000000;
-  color: #ffffff;
-  box-shadow: 0px 0px 5px #000000;
+  background-color: var(--color-texto);
+  color: var(--color-fondo);
+  box-shadow: 0px 0px 5px var(--color-texto);
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: var(--espaciado);
 }
 
-#resenas{
-  grid-column: span 3;
+#resenas {
+  grid-column: span 2;
+}
+
+:root {
+  --color-texto: #1a1a1a;
+  --color-fondo: #f2f2f2;
+  --espaciado: 20px;
 }
