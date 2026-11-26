@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -25,10 +29,6 @@ h2 {
   margin: 10px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 nav ul {
   display: flex;
   list-style: none;
@@ -41,12 +41,12 @@ nav a {
   padding: 8px;
   text-decoration: none;
   transition: 0.2s;
+  border-radius: 5px;
 }
 
 nav a:hover,
 nav a:focus {
   background-color: #000000;
   color: #ffffff;
-  border-radius: 5px;
   box-shadow: 0px 0px 5px #000000;
 }
