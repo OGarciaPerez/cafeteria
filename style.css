@@ -27,3 +27,16 @@ h2 {
 * {
   box-sizing: border-box;
 }
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+}
