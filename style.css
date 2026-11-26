@@ -50,3 +50,13 @@ nav a:focus {
   color: #ffffff;
   box-shadow: 0px 0px 5px #000000;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+#resenas{
+  grid-column: span 3;
+}
